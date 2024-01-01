@@ -1,0 +1,50 @@
+Y zm(){S}
+S SS
+
+S A
+A AA
+A i=D;
+D D+D
+D D*D
+D -D
+D (D)
+D i
+D d
+
+
+E E6E
+E E5E
+E !E
+E (E)
+E iRi
+E dRd
+E iRd
+R 1
+R 2
+R 3
+R 4
+R 5
+R 6
+R <
+R >
+
+
+S C{S}
+S T{S}
+T C{S}e
+C pE
+
+S K{S}
+K WE
+W w
+
+F $(A
+G FE;i=D)
+S G{S}
+
+S B;
+B BL
+L L,i
+L i
+B z
+B l

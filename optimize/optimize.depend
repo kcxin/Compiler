@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1703574857 source:c:\users\administered\desktop\compiler\optimize\geneintercode.cpp
+	<bits/stdc++.h>
+	"macro.h"
+
+1703896456 c:\users\administered\desktop\compiler\optimize\macro.h
+
+1703897971 source:c:\users\administered\desktop\compiler\optimize\gmaanalysis.cpp
+	<bits/stdc++.h>
+	"macro.h"
+
+1703898150 source:c:\users\administered\desktop\compiler\optimize\lexanalysis.cpp
+	<bits/stdc++.h>
+	"macro.h"
+
+1703575228 source:c:\users\administered\desktop\compiler\optimize\optimize.cpp
+	<bits/stdc++.h>
+	"macro.h"
+
+1703898607 source:c:\users\administered\desktop\compiler\optimize\main.cpp
+	<bits/stdc++.h>
+	"Functions.h"
+
+1703896152 c:\users\administered\desktop\compiler\optimize\functions.h
+
+1703124713 c:\users\administered\desktop\compiler\optimize\graph.h
+
+1703124998 source:c:\users\administered\desktop\compiler\optimize\graph.cpp
+

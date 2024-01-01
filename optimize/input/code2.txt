@@ -1,0 +1,6 @@
+int main()
+{
+	int a,b,c;
+	float d;
+  	a=1;b=c;d=a;a=d*b;
+}

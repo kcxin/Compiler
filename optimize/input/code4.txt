@@ -1,0 +1,7 @@
+int main()
+{
+	int a,b,c,d,i;
+  	for(i=a+b;i<=8;i=i+1){
+		if(a==b) {c=a+b;d=b+a;}
+	}
+}

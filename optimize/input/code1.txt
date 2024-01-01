@@ -1,0 +1,17 @@
+int main()
+{
+	int a,b,c,d,i;
+  	for(i=1*(5+2);i<a;i=i+1){
+		while(x>=y){
+			if(a>=b){
+				a=1;b=a*1;c=1*1;	
+			}else{
+				 while(1<=2){
+					c=a*b;d=b*a;b=-1*-d;
+				}
+			}
+		}
+	}
+	int e,f;
+  	if(a<=b && e<=d || f<=b){a=1;}
+}
