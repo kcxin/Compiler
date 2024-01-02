@@ -149,7 +149,7 @@ void initFirst()
     printFIRST();
 }
 /**打表**/
-set<grammar,comp> clousure(queue<grammar> I)
+set<grammar,comp> clousure(queue<grammar> &I)
 {
     set<grammar,comp> res;
     auto cmp = [](const grammar &a, const grammar &b){return a.get()<b.get();};//get比较
@@ -214,11 +214,13 @@ void initGoto()
         return 0;
     };
 
-    I[0]=clousure(queue<grammar>({grammar(rulearray[0],set<char>({'#'}))}));
+
     queue< set<grammar,comp> > Q;
+    queue<grammar> q;
+    q.push({grammar(rulearray[0],set<char>({'#'}))});
+    I[0]=clousure(q);
     Q.push(I[0]);
     while(!Q.empty()){ //遍历每个状态
-        queue<grammar> q;
         auto cur = Q.front();
         Q.pop();
         u=(*cur.begin()).get();   //划分前一个项目
