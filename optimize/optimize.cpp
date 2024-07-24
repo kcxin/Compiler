@@ -251,7 +251,7 @@ void renewFms() //将每个块四元式再穿成串
     }
     nxtst = j;
     for(i=1,j=1;i<nxtbl;i++){
-        for(auto ite:blocks[i].fms)
+        for(auto &ite:blocks[i].fms)
             if(ite.op.front()=='j')//改为跳转到块的开头四元式
                 ite.c = (ite.c!=to_string(nxtbl))?to_string(blocks_divide[stoi(ite.c)].ft):to_string(nxtst);
     }
